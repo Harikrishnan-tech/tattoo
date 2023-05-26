@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'homepage.dart';
 import 'login2.dart';
 import 'costant.dart';
+import 'sports.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +31,6 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         debugShowCheckedModeBanner: false,
-        home:HomePage());
+        home:LoginScreen());
   }
 }

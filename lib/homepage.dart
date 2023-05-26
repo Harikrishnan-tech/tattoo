@@ -5,6 +5,7 @@ import 'package:tatto1/login2.dart';
 import 'package:tatto1/portraiteimages.dart';
 import '3dimages.dart';
 import 'costant.dart';
+import 'sports.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -51,9 +52,9 @@ class _HomePageState extends State<HomePage> {
                     },
                       child: Text("PORTRAITURE TATTOO",style: TextStyle(fontSize: 25),textAlign:TextAlign.justify, )),
                     InkWell(onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder:(context)=>const PORTRAITURE()));
+                      Navigator.push(context, MaterialPageRoute(builder:(context)=>const sportsimage()));
                     },
-                      child: Text("COVERUP TATTOO",style: TextStyle(fontSize: 25),textAlign:TextAlign.justify, )),
+                      child: Text("SPORTS TATTOO",style: TextStyle(fontSize: 25),textAlign:TextAlign.justify, )),
                   ],
                 ),
                   ),

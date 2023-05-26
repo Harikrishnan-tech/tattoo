@@ -3,30 +3,29 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'constant.dart';
 
-class PORTRAITURE extends StatefulWidget {
-  const PORTRAITURE({super.key});
+class sportsimage extends StatefulWidget {
+  const sportsimage({super.key});
 
   @override
-  State<PORTRAITURE> createState() => _PORTRAITUREState();
+  State<sportsimage> createState() => _sportsimageState();
 }
 
-class _PORTRAITUREState extends State<PORTRAITURE> {
+class _sportsimageState extends State<sportsimage> {
   @override
   Widget build(BuildContext context) {
-    var l="assets/portraiteimages/11.jpg";
-var m="assets/portraiteimages/12.jpg";
-var n="assets/portraiteimages/13.jpg";
-var o="assets/portraiteimages/14.jpg";
-var p="assets/portraiteimages/15.jpg";
-var q="assets/portraiteimages/16.jpg";
-var r="assets/portraiteimages/17.jpg";
-var s="assets/portraiteimages/18.jpg";
-var t="assets/portraiteimages/19.jpg";
-var u="assets/portraiteimages/20.jpg";
-    return  Scaffold(
+    var v="assets/sportsimage/21.jpg";
+var w="assets/sportsimage/22.jpg";
+var x="assets/sportsimage/23.jpg";
+var y="assets/sportsimage/24.jpg";
+var z="assets/sportsimage/25.png";
+var aa="assets/sportsimage/26.jpg";
+var bb="assets/sportsimage/27.jpg";
+var cc="assets/sportsimage/28.jpg";
+var dd="assets/sportsimage/29.jpg";
+ return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: (Text('portraite')),
+        title: (Text('SPORTS IMAGES')),
       ),
       body:GridView(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3,),
       padding: const EdgeInsets.all(10),
@@ -38,7 +37,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(l),
+                      image: AssetImage(v),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -50,7 +49,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(m),
+                      image: AssetImage(w),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -62,7 +61,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(n),
+                      image: AssetImage(x),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -74,7 +73,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(o),
+                      image: AssetImage(y),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -86,7 +85,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(p),
+                      image: AssetImage(z),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -98,7 +97,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(q),
+                      image: AssetImage(aa),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -110,7 +109,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(r),
+                      image: AssetImage(bb),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -122,7 +121,7 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(s),
+                      image: AssetImage(cc),
                       // fit: BoxFit.cover
                     )),
                   ),
@@ -134,29 +133,19 @@ var u="assets/portraiteimages/20.jpg";
                     height: 800,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                      image: AssetImage(t),
-                      // fit: BoxFit.cover
-                    )),
-                  ),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(
-                    width: 800,
-                    height: 800,
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                      image: AssetImage(u),
+                      image: AssetImage(dd),
                       // fit: BoxFit.cover
                     )),
                   ),
         ),
         
-
       ],
       
         
       
-      )    );
+      ) 
+      
+        );
+
   }
 }
